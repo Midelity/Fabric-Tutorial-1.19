@@ -1,5 +1,7 @@
 package net.brennhan.tutorialmod;
 
+import net.brennhan.tutorialmod.item.ModItems;
+import net.brennhan.tutorialmod.item.ModItemGroup;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,5 +13,6 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
