@@ -25,6 +25,8 @@ public class ModItems {
         addToItemGroup(ItemGroups.INGREDIENTS, RAW_TANZANITE);
         addToItemGroup(ItemGroups.INGREDIENTS, TANZANITE);
 
+        addToItemGroup(ModItemGroup.TANZANITE, RAW_TANZANITE);
+        addToItemGroup(ModItemGroup.TANZANITE, TANZANITE);
     }
     public static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));

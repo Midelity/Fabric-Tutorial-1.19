@@ -13,6 +13,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroup();
 		ModItems.registerModItems();
+
 	}
 }
