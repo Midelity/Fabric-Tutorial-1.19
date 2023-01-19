@@ -3,6 +3,8 @@
   "item.tutorialmod.tanzanite": "Tanzanite",
 
   "block.tutorialmod.tanzanite_block": "Block of Tanzanite",
+  "block.tutorialmod.tanzanite_ore": "Tanzanite Ore",
+  "block.tutorialmod.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
 
   "itemGroup.tutorialmod.tanzanite": "Tanzanite Tutorial Tab"
 }
