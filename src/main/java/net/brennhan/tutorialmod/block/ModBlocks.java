@@ -30,6 +30,7 @@ public class ModBlocks {
                     UniformIntProvider.create(3, 7)), ModItemGroup.TANZANITE);
 
     public static Block registerBlock(String name, Block block, ItemGroup tab) {
+        registerBlockItem(name, block, tab);
         return Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, name), block);
     }
 
